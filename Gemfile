@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'rails_admin', '~> 2.1', '>= 2.1.1'
 
+gem 'devise'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
