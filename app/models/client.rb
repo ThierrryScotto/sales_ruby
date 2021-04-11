@@ -1,5 +1,5 @@
 class Client < ApplicationRecord
+  enum state: [:active, :inactive]
   belongs_to :user
-  enum :state: [:active, :inactive]
   has_one :address
 end
